@@ -1,0 +1,11 @@
+# Install matching PyTorch and TorchVision builds for your CUDA environment.
+torch
+torchvision
+# Must export Qwen3VLForConditionalGeneration; checked when the model is loaded.
+transformers
+peft
+accelerate
+numpy
+Pillow
+opencv-python
+tqdm
