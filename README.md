@@ -90,9 +90,4 @@ Set `--eval-task` to `farmland`, `paddy_field`, or `dry_field` to evaluate one t
 
 Model settings are loaded from `model_config.json` beside the checkpoint. If pretrained assets have moved, override their locations with `--base-model`, `--dino-ckpt`, and `--dino-repo-dir`.
 
-To list all options:
 
-~~~bash
-python train.py --help
-python evaluate.py --help
-~~~
